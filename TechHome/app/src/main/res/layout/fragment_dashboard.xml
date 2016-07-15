@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.techHome.fragments.DashboardFragment">
+
+    <RelativeLayout
+        android:id="@+id/llWelcome"
+        android:layout_width="fill_parent"
+        android:layout_height="90dip"
+        android:layout_marginTop="0dip"
+        android:background="@color/colorPrimary">
+
+        <com.neopixl.pixlui.components.textview.TextView
+            android:id="@+id/txtWelcomeGreeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/welcome_message"
+            android:textColor="@color/white"
+            android:textSize="18dip" />
+    </RelativeLayout>
+
+
+    <!--
+        <GridView
+            android:id="@+id/gridViewIcons"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/imgLogo"
+            android:layout_marginLeft="-5dip"
+            android:layout_marginRight="-5dip"
+            android:layout_marginTop="-15dip"
+            android:numColumns="auto_fit"
+            android:padding="5dip"
+            android:stretchMode="columnWidth">
+
+        </GridView>
+    -->
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/dashboardRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llWelcome"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="10dip"
+        android:padding="5dip">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

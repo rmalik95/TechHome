@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">TechHome</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="notifications">Notifications</string>
+    <string name="no_notifications">No Notifications</string>
+
+    <!--fragments-->
+
+    <string name="my_profile">My Profile</string>
+    <string name="login_register">Sign In/Register</string>
+    <string name="history">History</string>
+    <string name="app_offers">App Offers</string>
+    <string name="my_issues">My Issues</string>
+    <string name="my_orders">My Orders</string>
+    <string name="rate_card">Rate Card</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Log Out</string>
+    <string name="faqs">FAQs</string>
+
+    <string name="closeDrawer">Navigation View</string>
+    <string name="openDrawer">Navigation View Closed</string>
+
+    <string name="appliance">Select Appliance</string>
+    <string name="ac">A/C</string>
+    <string name="refrigerator">Refrigerator</string>
+    <string name="cooler">Cooler</string>
+    <string name="tv">TV</string>
+    <string name="others">Others</string>
+    <string name="electrical">Electrical Utilities</string>
+    <string name="wiring">Wiring Options</string>
+    <string name="plumbing">Plumbing Options</string>
+    <string name="appliances_activity">Appliances</string>
+    <string name="enter_mode">Entering Preference</string>
+    <string name="all_labels">All Labels</string>
+    <string name="about_us">About US</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="register">Create A New Account</string>
+    <string name="phone_number">Phone No.</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+    <string name="pin_code">Pin Code</string>
+    <string name="registration">Register</string>
+    <string name="city_name">City</string>
+    <string name="select_date">Select Date and Time</string>
+    <string name="next">Next</string>
+    <string name="wiring_requirements">Any Other Requirements</string>
+    <string name="plumbing_details">Further Details</string>
+    <string name="appliance_issue">Issue Description</string>
+    <string name="charges_apply">Charges Applicable</string>
+    <string name="pick_date">Pick Date</string>
+    <string name="date">Date</string>
+    <string name="submit">Submit</string>
+    <string name="grid_demo">Grid Item</string>
+    <string name="sign_in">Sign In</string>
+    <string name="or">OR</string>
+    <string name="guest_login">Enter As Guest</string>
+    <string name="dummy_text">Dummy Text</string>
+    <string name="description">Description</string>
+    <string name="welcome_message">Need Repairmen? We Got Them !!</string>
+    <string name="forgot_password_message">We will send on OTP at your registered email using which you can reset your password.</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="no_internet">Could not connect to internet</string>
+    <string name="no_internet_title">Network Error</string>
+    <string name="ok">OK</string>
+    <string name="oops">Oops!!</string>
+    <string name="error_message">Some Unexpected Error has Occured</string>
+    <string name="login_activity_invalid_password_title">Invalid Password</string>
+    <string name="login_activity_invalid_password">Password cannot be blank.</string>
+    <string name="login_activity_invalid_phone_title">Invalid Phone Number</string>
+    <string name="login_activity_invalid_phone">Phone Number should be 10 digit long.</string>
+    <string name="new_password">Enter A Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="choose_password">Choose A Password</string>
+    <string name="home">Home</string>
+    <string name="passwords_didnt_match_title">Incorrect Password</string>
+    <string name="passwords_didnt_match">Passwords Didn\'t Match</string>
+    <string name="blank_fields_title">Blank Fields</string>
+    <string name="blank_fields">Mandatory Fields shouldn\'t be blank.</string>
+
+
+    <string-array name="appliance_issue">
+        <item>@string/ac</item>
+        <item>@string/refrigerator</item>
+        <item>@string/cooler</item>
+        <item>@string/tv</item>
+        <item>@string/others</item>
+    </string-array>
+
+    <string-array name="wiring_issues">
+        <item>Full Home Wiring</item>
+    </string-array>
+
+    <string-array name="plumbing_issues">
+        <item>Fitting</item>
+        <item>Repairing</item>
+    </string-array>
+
+    <string-array name="city_names">
+        <item>Ghaziabad</item>
+        <item>Meerut</item>
+        <item>Muradnagar</item>
+        <item>Modinagar</item>
+        <item>Saharanpur</item>
+        <item>Dehradun</item>
+    </string-array>
+
+    <string-array name="time_slots">
+        <item>7:30 am - 9:30 am</item>
+        <item>9:30 am - 11:30 am</item>
+        <item>11:30 am - 1:30 pm</item>
+        <item>1:30 pm - 3:30 pm</item>
+        <item>3:30 pm - 5:30 pm</item>
+        <item>5:30 pm - 8:00 pm</item>
+    </string-array>
+
+</resources>

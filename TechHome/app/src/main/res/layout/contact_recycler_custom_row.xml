@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/CardView"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dip"
+    android:elevation="6dip"
+    android:layout_marginLeft="3dip"
+    android:layout_marginRight="3dip"
+    android:layout_marginTop="5dip">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.neopixl.pixlui.components.textview.TextView
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="10dip"
+            android:layout_toRightOf="@+id/imgPhoto"
+            android:padding="5dip"
+            android:text="Siddhartha Tyagi"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+
+        <com.neopixl.pixlui.components.textview.TextView
+            android:id="@+id/txtDesignation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtName"
+            android:layout_toRightOf="@+id/imgPhoto"
+            android:layout_marginBottom="1dip"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="1dip"
+            android:textStyle="bold"
+            android:padding="5dip"
+            android:text="Founder"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <com.neopixl.pixlui.components.textview.TextView
+            android:id="@+id/txtDegree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtDesignation"
+            android:layout_toRightOf="@+id/imgPhoto"
+            android:layout_marginBottom="1dip"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="1dip"
+            android:padding="5dip"
+            android:text="(B.sc, B.tech)"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <com.neopixl.pixlui.components.textview.TextView
+            android:id="@+id/txtAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtDegree"
+            android:layout_toRightOf="@+id/imgPhoto"
+            android:layout_marginBottom="1dip"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="1dip"
+            android:padding="5dip"
+            android:text="sidtyagi92@gmail.com"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+
+        <com.neopixl.pixlui.components.imageview.ImageView
+            android:layout_width="100dip"
+            android:layout_height="140dip"
+            android:layout_marginLeft="8dip"
+            android:id="@+id/imgPhoto"
+            android:src="@drawable/siddhartha_tyagi"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="5dip"
+            />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dip"
+        android:id="@+id/CardView1"
+        android:elevation="6dip"
+        android:layout_marginLeft="3dip"
+        android:layout_below="@+id/CardView"
+        android:layout_marginRight="3dip"
+        android:layout_marginTop="2dip">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:id="@+id/txtName1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:layout_marginTop="10dip"
+                android:layout_toRightOf="@+id/imgPhoto1"
+                android:padding="5dip"
+                android:text="Prateek Kapil"
+                android:textColor="@color/colorPrimary"
+                android:textSize="24sp" />
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:id="@+id/txtDesignation1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtName1"
+                android:layout_toRightOf="@+id/imgPhoto1"
+                android:layout_marginBottom="1dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:layout_marginTop="1dip"
+                android:textStyle="bold"
+                android:padding="5dip"
+                android:text="Co-Founder"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:id="@+id/txtDegree1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtDesignation1"
+                android:layout_toRightOf="@+id/imgPhoto1"
+                android:layout_marginBottom="5dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:layout_marginTop="1dip"
+                android:padding="5dip"
+                android:text="(MBA)"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <!--<com.neopixl.pixlui.components.textview.TextView-->
+                <!--android:id="@+id/txtEmail1"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/txtDegree1"-->
+                <!--android:layout_toRightOf="@+id/imgPhoto1"-->
+                <!--android:layout_marginBottom="1dip"-->
+                <!--android:layout_marginLeft="15dip"-->
+                <!--android:layout_marginRight="15dip"-->
+                <!--android:layout_marginTop="1dip"-->
+                <!--android:padding="5dip"-->
+                <!--android:text="Email"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:textSize="16sp" />-->
+
+
+            <com.neopixl.pixlui.components.imageview.ImageView
+                android:layout_width="100dip"
+                android:layout_height="100dip"
+                android:layout_marginLeft="8dip"
+                android:id="@+id/imgPhoto1"
+                android:src="@drawable/prateek_kapil"
+                android:layout_marginBottom="5dip"
+                android:layout_marginTop="5dip"
+                />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dip"
+        android:id="@+id/CardView2"
+        android:elevation="6dip"
+        android:layout_marginLeft="3dip"
+        android:layout_below="@+id/CardView1"
+        android:layout_marginRight="3dip"
+        android:layout_marginTop="2dip">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:id="@+id/txtName2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:layout_marginTop="10dip"
+                android:layout_toRightOf="@+id/imgPhoto2"
+                android:padding="5dip"
+                android:text="Shivam Tyagi"
+                android:textColor="@color/colorPrimary"
+                android:textSize="24sp" />
+
+            <!--
+            <com.neopixl.pixlui.components.textview.TextView
+                android:id="@+id/txtDesignation2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtName2"
+                android:layout_toRightOf="@+id/imgPhoto2"
+                android:layout_marginBottom="1dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:layout_marginTop="1dip"
+                android:textStyle="bold"
+                android:padding="5dip"
+                android:text="Designation"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+-->
+            <com.neopixl.pixlui.components.textview.TextView
+                android:id="@+id/txtDegree2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtName2"
+                android:layout_toRightOf="@+id/imgPhoto2"
+                android:layout_marginBottom="1dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:layout_marginTop="1dip"
+                android:padding="5dip"
+                android:text="(B.tech)"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <!--<com.neopixl.pixlui.components.textview.TextView-->
+            <!--android:id="@+id/txtEmail1"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/txtDegree1"-->
+            <!--android:layout_toRightOf="@+id/imgPhoto1"-->
+            <!--android:layout_marginBottom="1dip"-->
+            <!--android:layout_marginLeft="15dip"-->
+            <!--android:layout_marginRight="15dip"-->
+            <!--android:layout_marginTop="1dip"-->
+            <!--android:padding="5dip"-->
+            <!--android:text="Email"-->
+            <!--android:textColor="@color/black"-->
+            <!--android:textSize="16sp" />-->
+
+
+            <com.neopixl.pixlui.components.imageview.ImageView
+                android:layout_width="100dip"
+                android:layout_height="100dip"
+                android:layout_marginLeft="8dip"
+                android:src="@drawable/shivam_tyagi"
+                android:id="@+id/imgPhoto2"
+                android:layout_marginBottom="5dip"
+                android:layout_marginTop="5dip"
+                />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
+</ScrollView>
