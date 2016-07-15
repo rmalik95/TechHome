@@ -1,5 +1,6 @@
 package com.techHome.activities;
 
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -96,7 +97,9 @@ public class RegisterActivity extends AppCompatActivity {
                 @Override
                 public void onTaskCompleted(String result, int resultType) {
                     try {
-                        if(result.equals("successfully registered")) {
+                        if(result.trim().equals("successfully registered")) {
+                            Intent i = new Intent(RegisterActivity.this,DashboardActivity.class);
+                            startActivity(i);
                         }
                         else {
                             Toast.makeText(getApplicationContext(), "Try Again", Toast.LENGTH_SHORT).show();

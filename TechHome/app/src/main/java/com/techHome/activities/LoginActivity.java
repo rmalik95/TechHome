@@ -112,6 +112,8 @@ public class LoginActivity extends AppCompatActivity {
                         sp.edit().putInt("Id", Integer.parseInt(jo1.getString("id"))).commit();
                         sp.edit().putBoolean("isTrue", true).commit();
                         Toast.makeText(getApplicationContext(),"Login Successfull",Toast.LENGTH_SHORT).show();
+                        Intent i = new Intent(LoginActivity.this,DashboardActivity.class);
+                        startActivity(i);
                     } catch (Exception e) {
                         // TODO: handle exception
                         Toast.makeText(getApplicationContext(), "Invalid Details.", Toast.LENGTH_SHORT).show();
